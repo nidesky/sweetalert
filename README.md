@@ -34,11 +34,13 @@ php artisan vendor:publish
 
 // 在模板中调用
 
-{!! Alert::css() !!}
+{!! Alert::css() !!} 
 {!! Alert::js() !!}
 
 @include('sweetalert:sweetalert')
 
 // 如果只是在前端
+
+swal("Good job!", "You clicked the button!", "success")
 
 ```
