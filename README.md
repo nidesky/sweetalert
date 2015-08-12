@@ -1,4 +1,6 @@
-# SweetAlert
+# SweetAlertxian
+
+> Base on [t4t5/sweetalert](https://github.com/t4t5/sweetalert)
 
 ### 第一步：安装
 ```composer 
@@ -36,5 +38,7 @@ php artisan vendor:publish
 {!! Alert::js() !!}
 
 @include('sweetalert:sweetalert')
+
+// 如果只是在前端
 
 ```
