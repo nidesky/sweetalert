@@ -11,10 +11,16 @@ composer require nidesky/sweet-alert
 // 打开 config/app.php 
 // 在providers中添加
 
-Nidesky\SweetAlert\SweetAlertServiceProvider::class
+Nidesky\SweetAlert\SweetAlertServiceProvider::class,
 
 // 在alias中添加
-'Alert' => Nidesky\SweetAlert\Facades\SweetAlert::class;
+'Alert' => Nidesky\SweetAlert\Facades\SweetAlert::class,
+```
+
+再执行
+```shell
+php artisan vendor:publish
+
 ```
 
 
